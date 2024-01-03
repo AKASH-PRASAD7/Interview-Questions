@@ -134,7 +134,3 @@ console.log(window.b); // undefined
 const c = 10;
 console.log(window.c); // undefined
 ```
-
-```
-
-```
