@@ -47,13 +47,29 @@ console.log(sum); // 15
 
 ```javascript
 Array.prototype.myMap = function (callback) {
-  /* ... */
+  let arr = [];
+  for (let i = 0; i < this.length; i++) {
+    arr.push(callback(this[i]));
+  }
+  return arr;
 };
+
 Array.prototype.myFilter = function (callback) {
-  /* ... */
+  let arr = [];
+  for (let i = 0; i < this.length; i++) {
+    if (callback(this[i])) {
+      arr.push(this[i]);
+    }
+  }
+  return arr;
 };
+
 Array.prototype.myReduce = function (callback, initialValue) {
-  /* ... */
+  let accumulator = initialValue || this[0];
+  for (let i = 0; i < this.length; i++) {
+    accumulator = callback(accumulator, this[i]);
+  }
+  return accumulator;
 };
 ```
 
