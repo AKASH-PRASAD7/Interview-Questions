@@ -7,3 +7,5 @@
 ### 3) Functions in JavaScript 🚀 - [Questions](./Functions/Readme.md)
 
 ### 4) Closures in JavaScript 🚀 - [Questions](./closures/Readme.md)
+
+### 5) Currying in JavaScript 🚀 - [Questions](./Currying/Readme.md)
