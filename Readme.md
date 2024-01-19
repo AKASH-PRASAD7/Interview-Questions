@@ -11,3 +11,5 @@
 ### 5) Currying in JavaScript 🚀 - [Questions](./Currying/Readme.md)
 
 ### 6) Objects in JavaScript 🚀 - [Questions](./Objects/Readme.md)
+
+### 7) this keyword in JavaScript 🚀 - [Questions](./this/Readme.md)
