@@ -1,4 +1,3 @@
-````markdown
 # Understanding 'this' in JavaScript :zap:
 
 In JavaScript, `this` keyword is infamous for confusing new and experienced developers alike. It behaves differently compared to other programming languages, which makes it a little tricky to grasp.
@@ -12,12 +11,11 @@ const user = {
   name: "John",
   printName: function () {
     console.log(this.name);
-  },
+  }
 };
 
 user.printName(); // Output: John
 ```
-````
 
 ## Explicit Binding :point_right:
 
@@ -43,7 +41,7 @@ const user = {
   age: 25,
   printAge: () => {
     console.log(this.age);
-  },
+  }
 };
 
 user.printAge(); // Output: undefined (since `this` is taken from global scope in this case)
@@ -98,7 +96,3 @@ setTimeout(() => user.logMessage(), 1000); // Output after 1 second: Akash!
 3. **Question 3**: Using `setTimeout(user5.logMessage, 1000);` logs `undefined` because `this` loses context. However, wrapping `user5.logMessage` inside a function preserves the context.
 
 Get ready to master `this` and take your JavaScript skills to the next level! 🚀✨
-
-```
-
-```
