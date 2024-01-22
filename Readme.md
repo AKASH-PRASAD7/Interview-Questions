@@ -15,3 +15,5 @@
 ### 7) this keyword in JavaScript 🚀 - [Questions](./this/Readme.md)
 
 ### 8) Call-Bind-Apply in JavaScript 🚀 - [Questions](./Call-Bind-Apply/Readme.md)
+
+### 9) Promises in JavaScript 🚀 - [Questions](./Promise/Readme.md)
