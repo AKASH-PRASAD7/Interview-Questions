@@ -13,3 +13,5 @@
 ### 6) Objects in JavaScript 🚀 - [Questions](./Objects/Readme.md)
 
 ### 7) this keyword in JavaScript 🚀 - [Questions](./this/Readme.md)
+
+### 8) Call-Bind-Apply in JavaScript 🚀 - [Questions](./Call-Bind-Apply/Readme.md)
