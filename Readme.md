@@ -17,3 +17,5 @@
 ### 8) Call-Bind-Apply in JavaScript 🚀 - [Questions](./Call-Bind-Apply/Readme.md)
 
 ### 9) Promises in JavaScript 🚀 - [Questions](./Promise/Readme.md)
+
+### 10) Debouncing and Throttling in JavaScript 🚀 - [Questions](./Debouncing-Throttling/Readme.md)
