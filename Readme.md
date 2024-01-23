@@ -19,3 +19,5 @@
 ### 9) Promises in JavaScript 🚀 - [Questions](./Promise/Readme.md)
 
 ### 10) Debouncing and Throttling in JavaScript 🚀 - [Questions](./Debouncing-Throttling/Readme.md)
+
+### 11) Event Propagation in JavaScript 🚀 - [Questions](./Event-Propagation/Readme.md)
