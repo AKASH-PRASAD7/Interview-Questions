@@ -89,12 +89,12 @@ const b = 10;
 
 // Global Object
 
-var a = 10;
+var a3 = 10;
 console.log(window.a); // 10
 
-let b = 10;
+let b3 = 10;
 console.log(window.b); // undefined
 
-const c = 10;
+const c3 = 10;
 console.log(window.c); // undefined
 
