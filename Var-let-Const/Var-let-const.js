@@ -54,9 +54,9 @@ const c = 20; // illegal redeclaration
 
 // Declaration and Initialization
 
-var a; // Valid declaration 
-let b; // Valid declaration
-const c; // Invalid declaration
+var a1; // Valid declaration 
+let b1; // Valid declaration
+const c1; // Invalid declaration
 
 // Reinitalization
 
