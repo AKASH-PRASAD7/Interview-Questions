@@ -54,6 +54,8 @@ Array.prototype.myMap = function (callback) {
   return arr;
 };
 
+s;
+
 Array.prototype.myFilter = function (callback) {
   let arr = [];
   for (let i = 0; i < this.length; i++) {

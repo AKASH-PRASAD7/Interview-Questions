@@ -111,3 +111,67 @@ console.log("stop");
 // start
 // stop
 // Hi Akash
+
+//Promise.all
+const promise1 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Promise 1 resolved");
+  }, 1000);
+});
+
+const promise2 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Promise 2 resolved");
+  }, 2000);
+});
+
+const promise3 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Promise 3 resolved");
+  }, 3000);
+});
+
+Promise.all([promise1, promise2, promise3])
+  .then((res) => {
+    console.log(res);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
+
+// Output
+// [ 'Promise 1 resolved', 'Promise 2 resolved', 'Promise 3 resolved' ]
+
+// Promise.allSettled
+const promise4 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Promise 4 resolved");
+  }, 1000);
+});
+
+const promise5 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    reject(new Error("Promise 5 rejected"));
+  }, 2000);
+});
+
+const promise6 = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    resolve("Promise 6 resolved");
+  }, 3000);
+});
+
+Promise.allSettled([promise4, promise5, promise6])
+  .then((res) => {
+    console.log(res);
+  })
+  .catch((err) => {
+    console.log(err);
+  });
+
+// Output
+// [
+//   { status: 'fulfilled', value: 'Promise 4 resolved' },
+//   { status: 'rejected', reason: Error: Promise 5 rejected at Timeout._onTimeout ... },
+//   { status: 'fulfilled', value: 'Promise 6 resolved' }
+// ]
